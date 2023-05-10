@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+#mainContent h1 {
+ 
+    font-family: 'Kanit', sans-serif;
+    color: #4f0000;
+    letter-spacing: 0.5px;
+    
+}
+#mainContent p{
+    line-height: 24px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
